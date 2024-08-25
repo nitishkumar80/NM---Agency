@@ -1,0 +1,27 @@
+/* The styles for the navigation bar are primarily managed through Tailwind CSS utility classes.
+ * Here's how you can ensure responsiveness and handle the toggle effect properly.
+ */
+
+/* Additional custom styles can be added here if necessary */
+
+/* Example: Style overrides for smaller screens */
+@media (max-width: 640px) {
+    /* Override styles for small screens */
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
