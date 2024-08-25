@@ -10,9 +10,9 @@ const NavLinks = () => {
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#services">
                 Services
             </HashLink>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="https://nitishportfolio-rho.vercel.app/">
+                  <a className="px-4 font-extrabold text-gray-500 hover:text-blue-900" href="https://nitishportfolio-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
                 Portfolio
-            </HashLink>
+            </a>
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/contact#contact">
                 Contact Us
             </HashLink>
